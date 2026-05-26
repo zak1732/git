@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atharava Khakale | Robotics Portfolio</title>
+  <meta name="description" content="Premium futuristic portfolio for Atharava Khakale, Diploma Robotics & Automation student.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-ring"></div>
+    <span>Initializing Portfolio</span>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div id="particles-js"></div>
+
+  <nav class="navbar" id="navbar">
+    <a class="brand" href="#hero" aria-label="Atharava Khakale home">
+      <span>AK</span>
+      <strong>Atharava</strong>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#competitions">Competitions</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+      <div class="hero-grid">
+        <div class="hero-copy" data-aos="fade-right">
+          <p class="eyebrow"><i class="fa-solid fa-microchip"></i> Robotics • Automation • AI</p>
+          <h1>ATHARAVA KHAKALE</h1>
+          <div class="gradient-underline"></div>
+          <p class="typing-line"><span id="typedText"></span><span class="typing-caret"></span></p>
+          <p class="hero-summary">
+            Building a future-ready foundation in robotics, intelligent systems, automation tools, and creative engineering.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary magnetic" href="#contact">
+              <i class="fa-solid fa-paper-plane"></i>
+              Contact Me
+            </a>
+            <a class="btn ghost magnetic" href="#" id="downloadResume">
+              <i class="fa-solid fa-download"></i>
+              Download CV
+            </a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" data-aos="zoom-in" data-aos-delay="150">
+          <div class="avatar-shell">
+            <div class="avatar-placeholder">
+              <i class="fa-solid fa-user-astronaut"></i>
+            </div>
+          </div>
+          <div class="profile-card glass-card">
+            <span class="status-dot"></span>
+            <p>Available for projects, internships, and robotics challenges</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section resume-layout" id="about">
+      <div class="section-heading" data-aos="fade-up">
+        <span>01</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="glass-card about-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+        <div>
+          <h3>Robotics and AI enthusiast with a maker mindset.</h3>
+          <p>
+            I am a Diploma Robotics & Automation student focused on practical engineering, intelligent automation, and clean digital workflows. I enjoy learning how machines sense, decide, and act, while developing the software and design skills needed to build useful real-world systems.
+          </p>
+        </div>
+        <div class="about-metrics">
+          <div><strong>2024</strong><span>Diploma Start</span></div>
+          <div><strong>7+</strong><span>Core Skills</span></div>
+          <div><strong>3</strong><span>Competitions</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section" id="education">
+      <div class="left-rail" data-aos="fade-right">
+        <div class="section-heading">
+          <span>02</span>
+          <h2>Education Timeline</h2>
+        </div>
+        <p>Academic progress shaped around technology, applied learning, and robotics fundamentals.</p>
+      </div>
+      <div class="timeline" data-aos="fade-left">
+        <article class="timeline-card glass-card">
+          <div class="timeline-dot"></div>
+          <span class="timeline-year">Class 10th</span>
+          <h3>Podar International School</h3>
+          <p>Completed secondary education with 70%.</p>
+        </article>
+        <article class="timeline-card glass-card">
+          <div class="timeline-dot"></div>
+          <span class="timeline-year">2024 - 2027</span>
+          <h3>Vivekanand Education Society Polytechnic</h3>
+          <p>Diploma in Robotics & Automation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading center" data-aos="fade-up">
+        <span>03</span>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card glass-card" data-aos="fade-up" data-level="82">
+          <i class="fa-solid fa-table"></i>
+          <h3>Microsoft Excel</h3>
+          <div class="skill-bar"><span></span></div>
+        </article>
+        <article class="skill-card glass-card" data-aos="fade-up" data-level="80">
+          <i class="fa-solid fa-file-word"></i>
+          <h3>Microsoft Word</h3>
+          <div class="skill-bar"><span></span></div>
+        </article>
+        <article class="skill-card glass-card" data-aos="fade-up" data-level="78">
+          <i class="fa-solid fa-chart-simple"></i>
+          <h3>PowerPoint</h3>
+          <div class="skill-bar"><span></span></div>
+        </article>
+        <article class="skill-card glass-card" data-aos="fade-up" data-level="74">
+          <i class="fa-solid fa-cube"></i>
+          <h3>Fusion 360</h3>
+          <div class="skill-bar"><span></span></div>
+        </article>
+        <article class="skill-card glass-card" data-aos="fade-up" data-level="84">
+          <i class="fa-solid fa-robot"></i>
+          <h3>Robotics</h3>
+          <div class="skill-bar"><span></span></div>
+        </article>
+        <article class="skill-card glass-card" data-aos="fade-up" data-level="79">
+          <i class="fa-solid fa-gears"></i>
+          <h3>Automation</h3>
+          <div class="skill-bar"><span></span></div>
+        </article>
+        <article class="skill-card glass-card" data-aos="fade-up" data-level="68">
+          <i class="fa-solid fa-brain"></i>
+          <h3>AI Basics</h3>
+          <div class="skill-bar"><span></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="competitions">
+      <div class="left-rail" data-aos="fade-right">
+        <div class="section-heading">
+          <span>04</span>
+          <h2>Competitions</h2>
+        </div>
+        <p>Hands-on participation across robotics, electronics, and problem-solving events.</p>
+      </div>
+      <div class="competition-grid">
+        <article class="competition-card glass-card" data-aos="flip-left">
+          <i class="fa-solid fa-trophy"></i>
+          <h3>Technothon</h3>
+          <p>Technology challenge experience with creative engineering execution.</p>
+        </article>
+        <article class="competition-card glass-card" data-aos="flip-left" data-aos-delay="100">
+          <i class="fa-solid fa-gamepad"></i>
+          <h3>Robo Rumble</h3>
+          <p>Competitive robotics event focused on control, strength, and strategy.</p>
+        </article>
+        <article class="competition-card glass-card" data-aos="flip-left" data-aos-delay="200">
+          <i class="fa-solid fa-bolt"></i>
+          <h3>Circuit Debugging</h3>
+          <p>Electronics troubleshooting challenge with logic and precision.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="interests">
+      <div class="section-heading center" data-aos="fade-up">
+        <span>05</span>
+        <h2>Interests</h2>
+      </div>
+      <div class="interest-strip" data-aos="zoom-in">
+        <div><i class="fa-solid fa-code"></i><span>AI & Coding</span></div>
+        <div><i class="fa-solid fa-robot"></i><span>Robotics</span></div>
+        <div><i class="fa-solid fa-headset"></i><span>Gaming</span></div>
+        <div><i class="fa-solid fa-lightbulb"></i><span>Technology Innovation</span></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading center" data-aos="fade-up">
+        <span>06</span>
+        <h2>Contact</h2>
+      </div>
+      <div class="contact-card glass-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-info">
+          <a href="tel:+919137769398"><i class="fa-solid fa-phone"></i><span>+91 91377 69398</span></a>
+          <a href="mailto:atharava.khakale1@gmail.com"><i class="fa-solid fa-envelope"></i><span>atharava.khakale1@gmail.com</span></a>
+          <p><i class="fa-solid fa-location-dot"></i><span>Mumbai, Maharashtra, India</span></p>
+        </div>
+        <div class="social-links">
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
